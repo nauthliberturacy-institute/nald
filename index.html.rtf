@@ -1,0 +1,1115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh18400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8" />\
+  <title>Nauthliberturacy Institute \'96 Institute for Moral Governance</title>\
+  <meta name="viewport" content="width=device-width, initial-scale=1" />\
+  <style>\
+    :root \{\
+      --ni-navy: #0b1425;\
+      --ni-navy-soft: #111827;\
+      --ni-gold: #c68b3c;\
+      --ni-ink: #111827;\
+      --ni-muted: #6b7280;\
+      --ni-border: #e5e7eb;\
+      --ni-bg: #f9fafb;\
+      --ni-card-bg: #ffffff;\
+    \}\
+\
+    * \{\
+      box-sizing: border-box;\
+      margin: 0;\
+      padding: 0;\
+    \}\
+\
+    body \{\
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;\
+      background: #f3f4f6;\
+      color: var(--ni-ink);\
+      line-height: 1.6;\
+    \}\
+\
+    a \{\
+      text-decoration: none;\
+      color: inherit;\
+    \}\
+\
+    /* NAVBAR */\
+    .nav \{\
+      position: sticky;\
+      top: 0;\
+      z-index: 50;\
+      background: #020617;\
+      color: #e5e7eb;\
+      border-bottom: 1px solid rgba(148, 163, 184, 0.2);\
+    \}\
+\
+    .nav__inner \{\
+      max-width: 1120px;\
+      margin: 0 auto;\
+      padding: 0.75rem 1.5rem;\
+      display: flex;\
+      align-items: center;\
+      justify-content: space-between;\
+      gap: 1.5rem;\
+    \}\
+\
+    .nav__brand \{\
+      display: flex;\
+      flex-direction: column;\
+      gap: 0.15rem;\
+    \}\
+\
+    .nav__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 0.95rem;\
+      letter-spacing: 0.12em;\
+      text-transform: uppercase;\
+    \}\
+\
+    .nav__subtitle \{\
+      font-size: 0.75rem;\
+      color: #9ca3af;\
+    \}\
+\
+    .nav__links \{\
+      display: flex;\
+      align-items: center;\
+      gap: 1.5rem;\
+      font-size: 0.85rem;\
+    \}\
+\
+    .nav__link \{\
+      color: #e5e7eb;\
+      opacity: 0.9;\
+    \}\
+\
+    .nav__link:hover \{\
+      opacity: 1;\
+      color: #f9fafb;\
+    \}\
+\
+    .btn-gold \{\
+      padding: 0.5rem 1.1rem;\
+      border-radius: 999px;\
+      border: none;\
+      background: var(--ni-gold);\
+      color: #111827;\
+      font-size: 0.82rem;\
+      font-weight: 600;\
+      cursor: pointer;\
+      display: inline-flex;\
+      align-items: center;\
+      gap: 0.3rem;\
+      white-space: nowrap;\
+    \}\
+\
+    .btn-gold:hover \{\
+      filter: brightness(1.05);\
+    \}\
+\
+    /* HERO */\
+    .hero \{\
+      background: radial-gradient(circle at top left, #111827 0, #020617 40%, #020617 100%);\
+      color: #e5e7eb;\
+      padding: 4.5rem 1.5rem 4rem;\
+    \}\
+\
+    .hero__inner \{\
+      max-width: 1120px;\
+      margin: 0 auto;\
+      display: grid;\
+      gap: 3rem;\
+    \}\
+\
+    @media (min-width: 900px) \{\
+      .hero__inner \{\
+        grid-template-columns: minmax(0, 3fr) minmax(0, 2.2fr);\
+        align-items: center;\
+      \}\
+    \}\
+\
+    .hero__eyebrow \{\
+      text-transform: uppercase;\
+      letter-spacing: 0.25em;\
+      font-size: 0.7rem;\
+      color: var(--ni-gold);\
+      margin-bottom: 0.9rem;\
+    \}\
+\
+    .hero__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 2.4rem;\
+      line-height: 1.2;\
+      margin-bottom: 0.75rem;\
+    \}\
+\
+    .hero__text \{\
+      font-size: 0.96rem;\
+      color: #cbd5f5;\
+      max-width: 32rem;\
+      margin-bottom: 1.4rem;\
+    \}\
+\
+    .hero__actions \{\
+      display: flex;\
+      flex-wrap: wrap;\
+      gap: 0.75rem;\
+      margin-bottom: 1.8rem;\
+    \}\
+\
+    .btn-outline \{\
+      padding: 0.5rem 1.1rem;\
+      border-radius: 999px;\
+      border: 1px solid rgba(148, 163, 184, 0.5);\
+      background: transparent;\
+      color: #e5e7eb;\
+      font-size: 0.82rem;\
+      font-weight: 500;\
+      cursor: pointer;\
+    \}\
+\
+    .btn-outline:hover \{\
+      border-color: #e5e7eb;\
+    \}\
+\
+    .hero__quote \{\
+      font-size: 0.85rem;\
+      color: #9ca3af;\
+      border-left: 2px solid rgba(148, 163, 184, 0.6);\
+      padding-left: 0.75rem;\
+      max-width: 26rem;\
+    \}\
+\
+    .hero__quote strong \{\
+      color: #e5e7eb;\
+      font-weight: 600;\
+    \}\
+\
+    .hero__aside \{\
+      display: flex;\
+      flex-direction: column;\
+      gap: 1.2rem;\
+    \}\
+\
+    .hero__stat-card \{\
+      background: rgba(15, 23, 42, 0.85);\
+      border-radius: 1.25rem;\
+      padding: 1.4rem 1.5rem;\
+      border: 1px solid rgba(148, 163, 184, 0.25);\
+    \}\
+\
+    .hero__stat-title \{\
+      font-size: 0.8rem;\
+      text-transform: uppercase;\
+      letter-spacing: 0.18em;\
+      color: var(--ni-gold);\
+      margin-bottom: 0.4rem;\
+    \}\
+\
+    .hero__stat-text \{\
+      font-size: 0.9rem;\
+      color: #e5e7eb;\
+    \}\
+\
+    /* GENERIC SECTION WRAPPER */\
+    .section \{\
+      padding: 3.5rem 1.5rem;\
+    \}\
+\
+    .section--light \{\
+      background: #f9fafb;\
+    \}\
+\
+    .section--white \{\
+      background: #ffffff;\
+    \}\
+\
+    .section__inner \{\
+      max-width: 1120px;\
+      margin: 0 auto;\
+    \}\
+\
+    .eyebrow \{\
+      text-transform: uppercase;\
+      letter-spacing: 0.25em;\
+      font-size: 0.7rem;\
+      color: var(--ni-gold);\
+      margin-bottom: 0.75rem;\
+    \}\
+\
+    .section__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.9rem;\
+      color: var(--ni-navy-soft);\
+      margin-bottom: 0.75rem;\
+    \}\
+\
+    .section__text \{\
+      font-size: 0.95rem;\
+      color: var(--ni-muted);\
+      max-width: 640px;\
+    \}\
+\
+    /* ABOUT GRID */\
+    .about-grid \{\
+      display: grid;\
+      gap: 1.75rem;\
+      margin-top: 2.25rem;\
+    \}\
+\
+    @media (min-width: 900px) \{\
+      .about-grid \{\
+        grid-template-columns: 2.5fr 1.8fr;\
+        align-items: flex-start;\
+      \}\
+    \}\
+\
+    .pill-grid \{\
+      display: grid;\
+      gap: 0.9rem;\
+    \}\
+\
+    @media (min-width: 600px) \{\
+      .pill-grid \{\
+        grid-template-columns: repeat(2, minmax(0, 1fr));\
+      \}\
+    \}\
+\
+    .pill-card \{\
+      border-radius: 1rem;\
+      border: 1px solid var(--ni-border);\
+      padding: 0.9rem 1rem;\
+      background: var(--ni-card-bg);\
+      font-size: 0.85rem;\
+    \}\
+\
+    .pill-card__title \{\
+      font-weight: 600;\
+      font-size: 0.83rem;\
+      color: var(--ni-navy-soft);\
+      margin-bottom: 0.25rem;\
+      text-transform: uppercase;\
+      letter-spacing: 0.08em;\
+    \}\
+\
+    .pill-card__text \{\
+      color: var(--ni-muted);\
+      font-size: 0.85rem;\
+    \}\
+\
+    /* FRAMEWORK CARDS */\
+    .framework-grid \{\
+      margin-top: 2.2rem;\
+      display: grid;\
+      gap: 1.3rem;\
+    \}\
+\
+    @media (min-width: 900px) \{\
+      .framework-grid \{\
+        grid-template-columns: repeat(3, minmax(0, 1fr));\
+      \}\
+    \}\
+\
+    .framework-card \{\
+      background: var(--ni-card-bg);\
+      border-radius: 1.25rem;\
+      border: 1px solid var(--ni-border);\
+      padding: 1.3rem 1.2rem;\
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.04);\
+      font-size: 0.9rem;\
+    \}\
+\
+    .framework-card__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.05rem;\
+      margin-bottom: 0.35rem;\
+      color: var(--ni-navy-soft);\
+    \}\
+\
+    .framework-card__text \{\
+      color: var(--ni-muted);\
+      margin-bottom: 0.5rem;\
+    \}\
+\
+    .framework-card__list \{\
+      padding-left: 1.1rem;\
+      color: var(--ni-muted);\
+      font-size: 0.86rem;\
+    \}\
+\
+    .framework-card__list li \{\
+      margin-bottom: 0.25rem;\
+    \}\
+\
+    /* PROGRAMMES (reuse from earlier, slightly tweaked) */\
+    .programmes \{\
+      background: var(--ni-bg);\
+      border-top: 1px solid var(--ni-border);\
+      padding: 3.5rem 1.5rem 3.8rem;\
+    \}\
+\
+    .programmes__container \{\
+      max-width: 1120px;\
+      margin: 0 auto;\
+    \}\
+\
+    .programmes__eyebrow \{\
+      text-transform: uppercase;\
+      letter-spacing: 0.25em;\
+      font-size: 0.7rem;\
+      color: var(--ni-gold);\
+      margin-bottom: 0.75rem;\
+    \}\
+\
+    .programmes__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.9rem;\
+      color: var(--ni-navy-soft);\
+      margin: 0 0 0.75rem;\
+    \}\
+\
+    .programmes__intro \{\
+      max-width: 640px;\
+      font-size: 0.95rem;\
+      color: var(--ni-muted);\
+      line-height: 1.6;\
+      margin-bottom: 2.5rem;\
+    \}\
+\
+    .programmes__grid \{\
+      display: grid;\
+      gap: 1.75rem;\
+    \}\
+\
+    @media (min-width: 960px) \{\
+      .programmes__grid \{\
+        grid-template-columns: repeat(3, minmax(0, 1fr));\
+      \}\
+    \}\
+\
+    .programme-card \{\
+      background: var(--ni-card-bg);\
+      border-radius: 1.25rem;\
+      border: 1px solid var(--ni-border);\
+      padding: 1.8rem 1.6rem 1.4rem;\
+      display: flex;\
+      flex-direction: column;\
+      height: 100%;\
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.04);\
+      font-size: 0.9rem;\
+    \}\
+\
+    .programme-card__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.2rem;\
+      color: var(--ni-navy);\
+      margin: 0 0 0.4rem;\
+    \}\
+\
+    .programme-card__tagline \{\
+      font-size: 0.88rem;\
+      font-weight: 500;\
+      color: var(--ni-ink);\
+      margin-bottom: 0.65rem;\
+    \}\
+\
+    .programme-card__text \{\
+      font-size: 0.86rem;\
+      color: var(--ni-muted);\
+      line-height: 1.6;\
+      margin-bottom: 0.9rem;\
+    \}\
+\
+    .programme-card__details \{\
+      border-top: 1px solid var(--ni-border);\
+      margin-top: 0.75rem;\
+      padding-top: 0.75rem;\
+      font-size: 0.84rem;\
+      color: var(--ni-muted);\
+      line-height: 1.6;\
+      display: none;\
+    \}\
+\
+    .programme-card__details.is-open \{\
+      display: block;\
+    \}\
+\
+    .programme-card__subtitle \{\
+      font-size: 0.8rem;\
+      text-transform: uppercase;\
+      letter-spacing: 0.18em;\
+      color: var(--ni-gold);\
+      margin: 0 0 0.5rem;\
+    \}\
+\
+    .programme-card__list \{\
+      padding-left: 1.1rem;\
+      margin: 0;\
+      display: grid;\
+      gap: 0.35rem;\
+    \}\
+\
+    .programme-card__list li strong \{\
+      color: var(--ni-navy-soft);\
+    \}\
+\
+    .programme-card__cta \{\
+      margin-top: auto;\
+      padding: 0.65rem 0 0;\
+      border: none;\
+      background: none;\
+      font-size: 0.88rem;\
+      font-weight: 500;\
+      color: var(--ni-navy-soft);\
+      display: inline-flex;\
+      align-items: center;\
+      gap: 0.3rem;\
+      cursor: pointer;\
+    \}\
+\
+    .programme-card__cta::after \{\
+      content: "\uc0\u8599 ";\
+      font-size: 0.9rem;\
+      transform: translateY(1px);\
+      transition: transform 0.15s ease;\
+    \}\
+\
+    .programme-card__cta:hover \{\
+      color: var(--ni-gold);\
+    \}\
+\
+    .programme-card__cta:hover::after \{\
+      transform: translate(3px, 1px);\
+    \}\
+\
+    /* FOUNDATIONAL TEXT */\
+    .book-grid \{\
+      display: grid;\
+      gap: 1.75rem;\
+      margin-top: 2.25rem;\
+    \}\
+\
+    @media (min-width: 800px) \{\
+      .book-grid \{\
+        grid-template-columns: minmax(0, 1.3fr) minmax(0, 2fr);\
+        align-items: center;\
+      \}\
+    \}\
+\
+    .book-card \{\
+      background: var(--ni-card-bg);\
+      border-radius: 1.25rem;\
+      border: 1px solid var(--ni-border);\
+      padding: 1.6rem 1.5rem;\
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.04);\
+      font-size: 0.9rem;\
+    \}\
+\
+    .book-card__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.25rem;\
+      margin-bottom: 0.4rem;\
+      color: var(--ni-navy-soft);\
+    \}\
+\
+    .book-card__text \{\
+      color: var(--ni-muted);\
+      margin-bottom: 0.7rem;\
+    \}\
+\
+    .book-card__list \{\
+      padding-left: 1.1rem;\
+      font-size: 0.86rem;\
+      color: var(--ni-muted);\
+    \}\
+\
+    .book-card__list li \{\
+      margin-bottom: 0.25rem;\
+    \}\
+\
+    .book-card__actions \{\
+      margin-top: 1rem;\
+      display: flex;\
+      flex-wrap: wrap;\
+      gap: 0.75rem;\
+    \}\
+\
+    .btn-dark \{\
+      padding: 0.55rem 1.2rem;\
+      border-radius: 999px;\
+      border: none;\
+      background: var(--ni-navy-soft);\
+      color: #e5e7eb;\
+      font-size: 0.83rem;\
+      cursor: pointer;\
+    \}\
+\
+    .btn-light \{\
+      padding: 0.55rem 1.2rem;\
+      border-radius: 999px;\
+      border: 1px solid var(--ni-border);\
+      background: #ffffff;\
+      color: var(--ni-ink);\
+      font-size: 0.83rem;\
+      cursor: pointer;\
+    \}\
+\
+    /* WORK SUBMISSION */\
+    .submission-grid \{\
+      display: grid;\
+      gap: 1.75rem;\
+      margin-top: 2.25rem;\
+    \}\
+\
+    @media (min-width: 900px) \{\
+      .submission-grid \{\
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);\
+      \}\
+    \}\
+\
+    .submission-card \{\
+      background: var(--ni-card-bg);\
+      border-radius: 1.25rem;\
+      border: 1px solid var(--ni-border);\
+      padding: 1.5rem 1.4rem;\
+      font-size: 0.9rem;\
+    \}\
+\
+    .submission-card__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.1rem;\
+      margin-bottom: 0.5rem;\
+      color: var(--ni-navy-soft);\
+    \}\
+\
+    .submission-card__list \{\
+      padding-left: 1.1rem;\
+      color: var(--ni-muted);\
+      font-size: 0.86rem;\
+    \}\
+\
+    .submission-card__list li \{\
+      margin-bottom: 0.35rem;\
+    \}\
+\
+    .submission-card__label \{\
+      font-size: 0.8rem;\
+      text-transform: uppercase;\
+      letter-spacing: 0.15em;\
+      color: var(--ni-gold);\
+      margin-bottom: 0.35rem;\
+    \}\
+\
+    .submission-actions \{\
+      margin-top: 1.2rem;\
+      display: flex;\
+      gap: 0.75rem;\
+      flex-wrap: wrap;\
+    \}\
+\
+    /* FOOTER / MAILING LIST */\
+    .footer \{\
+      background: #020617;\
+      color: #e5e7eb;\
+      padding: 3rem 1.5rem 2.2rem;\
+    \}\
+\
+    .footer__inner \{\
+      max-width: 1120px;\
+      margin: 0 auto;\
+      display: grid;\
+      gap: 2.25rem;\
+    \}\
+\
+    @media (min-width: 900px) \{\
+      .footer__inner \{\
+        grid-template-columns: minmax(0, 2.2fr) minmax(0, 2fr);\
+        align-items: flex-start;\
+      \}\
+    \}\
+\
+    .footer__title \{\
+      font-family: "Georgia", "Times New Roman", serif;\
+      font-size: 1.4rem;\
+      margin-bottom: 0.6rem;\
+    \}\
+\
+    .footer__text \{\
+      font-size: 0.9rem;\
+      color: #9ca3af;\
+      max-width: 30rem;\
+    \}\
+\
+    .footer-form \{\
+      display: grid;\
+      gap: 0.75rem;\
+      font-size: 0.85rem;\
+    \}\
+\
+    .footer-form label \{\
+      font-size: 0.8rem;\
+      color: #d1d5db;\
+    \}\
+\
+    .footer-input,\
+    .footer-select \{\
+      width: 100%;\
+      padding: 0.55rem 0.75rem;\
+      border-radius: 0.5rem;\
+      border: 1px solid rgba(148, 163, 184, 0.6);\
+      background: #020617;\
+      color: #e5e7eb;\
+      font-size: 0.85rem;\
+    \}\
+\
+    .footer-input::placeholder \{\
+      color: #6b7280;\
+    \}\
+\
+    .footer-bottom \{\
+      margin-top: 2rem;\
+      border-top: 1px solid rgba(148, 163, 184, 0.3);\
+      padding-top: 1.2rem;\
+      font-size: 0.78rem;\
+      color: #9ca3af;\
+      display: flex;\
+      flex-wrap: wrap;\
+      gap: 1rem;\
+      justify-content: space-between;\
+    \}\
+\
+    .footer-links \{\
+      display: flex;\
+      gap: 1.1rem;\
+      flex-wrap: wrap;\
+    \}\
+\
+    .footer-links a \{\
+      color: #e5e7eb;\
+      opacity: 0.9;\
+    \}\
+\
+    .footer-links a:hover \{\
+      opacity: 1;\
+    \}\
+  </style>\
+</head>\
+<body>\
+\
+  <!-- NAVBAR -->\
+  <header class="nav">\
+    <div class="nav__inner">\
+      <div class="nav__brand">\
+        <div class="nav__title">Nauthliberturacy</div>\
+        <div class="nav__subtitle">Institute for Moral Governance & Philosophy</div>\
+      </div>\
+      <nav class="nav__links">\
+        <a href="#about" class="nav__link">About</a>\
+        <a href="#framework" class="nav__link">Philosophy</a>\
+        <a href="#programmes" class="nav__link">Programmes</a>\
+        <a href="#foundational-text" class="nav__link">Foundational text</a>\
+        <a href="#submission" class="nav__link">Analytical work submission</a>\
+        <button class="btn-gold">Apply to Our Fellowship</button>\
+      </nav>\
+    </div>\
+  </header>\
+\
+  <!-- HERO -->\
+  <section class="hero">\
+    <div class="hero__inner">\
+      <div>\
+        <p class="hero__eyebrow">Institute for Moral Governance & Nauthliberturacy</p>\
+        <h1 class="hero__title">Nurturing the moral courage to govern a fractured world.</h1>\
+        <p class="hero__text">\
+          The Nauthliberturacy Institute brings together young scholars, professors and practitioners\
+          to explore structured moral power, quantitative General Will, and new architectures of state\
+          legitimacy for the twenty-first century.\
+        </p>\
+        <div class="hero__actions">\
+          <button class="btn-gold" onclick="document.getElementById('about').scrollIntoView(\{behavior:'smooth'\})">\
+            Learn About Us\
+          </button>\
+          <button class="btn-outline" onclick="document.getElementById('framework').scrollIntoView(\{behavior:'smooth'\})">\
+            Explore the Framework\
+          </button>\
+        </div>\
+        <p class="hero__quote">\
+          <strong>\'93We translate Rousseau\'92s General Will into a living institution, measurable with game and graph theory.\'94</strong>\
+        </p>\
+      </div>\
+\
+      <aside class="hero__aside">\
+        <div class="hero__stat-card">\
+          <div class="hero__stat-title">Structured Moral Power</div>\
+          <div class="hero__stat-text">\
+            A regime whose authority rests on transparent moral constraints, not mere force or sentiment.\
+          </div>\
+        </div>\
+\
+        <div class="hero__stat-card">\
+          <div class="hero__stat-title">Emerging & Fragile States</div>\
+          <div class="hero__stat-text">\
+            We focus on environments where institutions are young, contested, or collapsing, and legitimacy is under strain.\
+          </div>\
+        </div>\
+      </aside>\
+    </div>\
+  </section>\
+\
+  <!-- ABOUT -->\
+  <section id="about" class="section section--light">\
+    <div class="section__inner">\
+      <p class="eyebrow">About the Institute</p>\
+      <div class="about-grid">\
+        <div>\
+          <h2 class="section__title">A small, independent unity for ideas to take form.</h2>\
+          <p class="section__text">\
+            The Nauthliberturacy Institute pursues the first integrated moral governance project with an embodied\
+            General Will, connected through ethical integrity. We ask how states can reclaim legitimacy without\
+            collapsing into authoritarianism or anarchy. Our work evolves from the book\
+            <em>Nauthliberturacy: The Rise of Radicals in the Shattered World Order</em>, which proposes a new regime\
+            family and a quantitative model of Rousseau\'92s General Will.\
+          </p>\
+        </div>\
+        <div class="pill-grid">\
+          <div class="pill-card">\
+            <div class="pill-card__title">Emerging & Fragile States</div>\
+            <p class="pill-card__text">\
+              We concentrate on societies where institutions are contested, disrupted, or being rebuilt under pressure.\
+            </p>\
+          </div>\
+          <div class="pill-card">\
+            <div class="pill-card__title">Philosophy + Quantitative Models</div>\
+            <p class="pill-card__text">\
+              Classical political theory joined with game and graph theory to test moral legitimacy in practice.\
+            </p>\
+          </div>\
+          <div class="pill-card">\
+            <div class="pill-card__title">Intellectual Courage</div>\
+            <p class="pill-card__text">\
+              To argue persuasively, listen generously, and rethink first principles in the open.\
+            </p>\
+          </div>\
+          <div class="pill-card">\
+            <div class="pill-card__title">Moral Governance</div>\
+            <p class="pill-card__text">\
+              Exploring how structured moral power can filter interest, radicalism, and state authority.\
+            </p>\
+          </div>\
+        </div>\
+      </div>\
+    </div>\
+  </section>\
+\
+  <!-- FRAMEWORK -->\
+  <section id="framework" class="section section--white">\
+    <div class="section__inner">\
+      <p class="eyebrow">The Nauthliberturacy Framework</p>\
+      <h2 class="section__title">Turning social contract theory into measurable architecture.</h2>\
+      <p class="section__text">\
+        Nauthliberturacy rests on three interlocking components: structured moral power, quantitative General Will,\
+        and institutional design resilient to radical shocks. Together they propose a solution to the outgrowing\
+        context of radical uprising.\
+      </p>\
+\
+      <div class="framework-grid">\
+        <article class="framework-card">\
+          <h3 class="framework-card__title">Structured Moral Power</h3>\
+          <p class="framework-card__text">\
+            Power is constrained by explicit moral charters that citizens can understand, debate, and revise.\
+          </p>\
+          <ul class="framework-card__list">\
+            <li>Moral red lines for state action</li>\
+            <li>Transparent justification of decisions</li>\
+            <li>Citizen oversight bodies</li>\
+          </ul>\
+        </article>\
+\
+        <article class="framework-card">\
+          <h3 class="framework-card__title">Quantitative General Will</h3>\
+          <p class="framework-card__text">\
+            A network model of citizens, trust, and preferences estimates how far policies align with the General Will\
+            while upholding minority voices.\
+          </p>\
+          <ul class="framework-card__list">\
+            <li>Trust-weighted citizen graphs</li>\
+            <li>Alignment indices for legislation</li>\
+            <li>Legitimacy early-warning indicators</li>\
+          </ul>\
+        </article>\
+\
+        <article class="framework-card">\
+          <h3 class="framework-card__title">Institutional Architecture</h3>\
+          <p class="framework-card__text">\
+            Moral councils, citizen assemblies and veto points embed theory into the machinery of the state.\
+          </p>\
+          <ul class="framework-card__list">\
+            <li>Multi-layer deliberative forums</li>\
+            <li>Anti-capture design</li>\
+            <li>Codified review of emergency powers</li>\
+          </ul>\
+        </article>\
+      </div>\
+    </div>\
+  </section>\
+\
+  <!-- PROGRAMMES -->\
+  <section id="programmes" class="programmes">\
+    <div class="programmes__container">\
+      <p class="programmes__eyebrow">Programmes</p>\
+      <h2 class="programmes__title">Discover our programmes</h2>\
+      <p class="programmes__intro">\
+        The Institute develops programmes that unite moral philosophy, quantitative models, and real-world\
+        governance practice. Explore our three core pillars below.\
+      </p>\
+\
+      <div class="programmes__grid">\
+        <!-- Moral Governance Schools -->\
+        <article class="programme-card">\
+          <h3 class="programme-card__title">Moral Governance Schools</h3>\
+          <p class="programme-card__tagline">\
+            Intensive seminar weeks, grounded in Rheico \'96 the invisible parliament within the individual.\
+          </p>\
+          <p class="programme-card__text">\
+            We design online and in-person seminar weeks where ambitious students challenge each other and\
+            their tutors to think differently about sovereignty, conscience, and legitimacy.\
+          </p>\
+          <div id="mgs-details" class="programme-card__details">\
+            <h4 class="programme-card__subtitle">Sub-sectors</h4>\
+            <ul class="programme-card__list">\
+              <li><strong>Intensive Seminar Weeks</strong> \'96 1\'962 week schools with simulations and case studies.</li>\
+              <li><strong>Rheico Workshops</strong> \'96 deep dives into the \'93invisible parliament\'94 inside the individual.</li>\
+              <li><strong>Ethical Debate Studios</strong> \'96 debates that map where participants draw their moral lines.</li>\
+              <li><strong>Moral Leadership Practicum</strong> \'96 training for those who want to lead with structured moral power.</li>\
+              <li><strong>Applied Philosophy Labs</strong> \'96 groups producing essays, diagrams, and governance blueprints.</li>\
+              <li><strong>Fellowship Cohort</strong> \'96 a selective group working directly with the Institute\'92s projects.</li>\
+            </ul>\
+          </div>\
+          <button class="programme-card__cta" data-target="mgs-details">\
+            Discover our programmes \uc0\u8594 \
+          </button>\
+        </article>\
+\
+        <!-- GMGI -->\
+        <article class="programme-card">\
+          <h3 class="programme-card__title">Global Moral Governance Initiative</h3>\
+          <p class="programme-card__tagline">\
+            Answering questions grounded in Nauthliberturacy and the crisis of legitimacy in modern states.\
+          </p>\
+          <p class="programme-card__text">\
+            This initiative investigates how legitimacy can be rebuilt in fragile and polarized regimes, embedding\
+            individual interest within moral constraints rather than mere force.\
+          </p>\
+          <div id="gmgi-details" class="programme-card__details">\
+            <h4 class="programme-card__subtitle">Sub-sectors</h4>\
+            <ul class="programme-card__list">\
+              <li><strong>Crisis of Legitimacy Forum</strong> \'96 comparative analysis of how states lose moral authority.</li>\
+              <li><strong>Behavioral Governance Lab</strong> \'96 behavioural and social science on deception and conformity.</li>\
+              <li><strong>State-Pulse Diagnostic Project</strong> \'96 early-warning indicators of democratic breakdown.</li>\
+              <li><strong>Civic Identity Workshops</strong> \'96 exploring alignment of interests and ethical structures.</li>\
+              <li><strong>Legitimacy Case Studies</strong> \'96 Suez, Syria, Venezuela, Mongolia and other regimes.</li>\
+              <li><strong>Moral Governance Index (MGI)</strong> \'96 comparative legitimacy and moral alignment ranking.</li>\
+            </ul>\
+          </div>\
+          <button class="programme-card__cta" data-target="gmgi-details">\
+            View the questions \uc0\u8594 \
+          </button>\
+        </article>\
+\
+        <!-- Quant Lab -->\
+        <article class="programme-card">\
+          <h3 class="programme-card__title">Nauthliberturacy Quantitative Lab</h3>\
+          <p class="programme-card__tagline">\
+            Embedding game and graph theory into Rousseau\'92s General Will for the 21st century.\
+          </p>\
+          <p class="programme-card__text">\
+            The Lab develops quantitative tools that test whether laws, institutions and policies can be justified\
+            as expressions of a truly General Will.\
+          </p>\
+          <div id="nql-details" class="programme-card__details">\
+            <h4 class="programme-card__subtitle">Sub-sectors</h4>\
+            <ul class="programme-card__list">\
+              <li><strong>Quantified General Will Model</strong> \'96 graph-theoretic simulation of moral convergence.</li>\
+              <li><strong>Legitimacy Simulation Engine</strong> \'96 models to test how proposed policies affect trust.</li>\
+              <li><strong>Trust-Weighted Network Mapping</strong> \'96 trust graphs and alignment indices.</li>\
+              <li><strong>Deception & Norms Project</strong> \'96 how deception and signalling shape collective outcomes.</li>\
+              <li><strong>Collaborative Research Fellowships</strong> \'96 joint projects with theorists, economists, diplomats.</li>\
+              <li><strong>Quantitative Papers Series</strong> \'96 working papers on \'93Can Will Ever Be General?\'94 and more.</li>\
+            </ul>\
+          </div>\
+          <button class="programme-card__cta" data-target="nql-details">\
+            Explore opportunities for collaboration \uc0\u8594 \
+          </button>\
+        </article>\
+      </div>\
+    </div>\
+  </section>\
+\
+  <!-- FOUNDATIONAL TEXT -->\
+  <section id="foundational-text" class="section section--white">\
+    <div class="section__inner">\
+      <p class="eyebrow">Foundational Text</p>\
+      <div class="book-grid">\
+        <div class="book-card">\
+          <h3 class="book-card__title">Nauthliberturacy: The Rise of Radicals in the Shattered World Order</h3>\
+          <p class="book-card__text">\
+            The founding document of the Institute. It traces the collapse of moral authority in modern regimes and\
+            proposes a new family of states built on structured moral power.\
+          </p>\
+          <ul class="book-card__list">\
+            <li>Diagnoses why existing democracies are vulnerable to radicals.</li>\
+            <li>Defines National Authoritarian Liberal Democracy as a regime type.</li>\
+            <li>Formalizes Rousseau\'92s General Will using game and graph theory.</li>\
+          </ul>\
+          <div class="book-card__actions">\
+            <button class="btn-dark">View the Book</button>\
+            <button class="btn-light">Download Sample Chapter (PDF)</button>\
+          </div>\
+        </div>\
+        <div>\
+          <!-- Placeholder image block; replace with real cover later -->\
+          <div style="\
+            width: 100%;\
+            max-width: 260px;\
+            aspect-ratio: 3/4;\
+            border-radius: 1rem;\
+            background: linear-gradient(145deg,#020617,#1f2937);\
+            border: 1px solid #1e293b;\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            color:#e5e7eb;\
+            font-family:'Georgia','Times New Roman',serif;\
+            font-size:0.95rem;\
+            text-align:center;\
+            padding:1rem;">\
+            Book cover placeholder<br/>Nauthliberturacy\
+          </div>\
+        </div>\
+      </div>\
+    </div>\
+  </section>\
+\
+  <!-- WORK SUBMISSION -->\
+  <section id="submission" class="section section--light">\
+    <div class="section__inner">\
+      <p class="eyebrow">Analytical Work Submission</p>\
+      <h2 class="section__title">Submit your analytical or philosophical work</h2>\
+      <p class="section__text">\
+        The Nauthliberturacy Institute invites rigorous intellectual contributions from students, scholars, and\
+        independent researchers. We accept analytical papers, philosophical critiques, quantitative replications,\
+        simulation models, and comparative studies related to moral governance, legitimacy, and the framework.\
+      </p>\
+\
+      <div class="submission-grid">\
+        <div class="submission-card">\
+          <div class="submission-card__label">Category 1 \'b7 Essay</div>\
+          <h3 class="submission-card__title">Analytical Essay</h3>\
+          <p class="section__text" style="font-size:0.9rem;">\
+            Classical essay-style argumentation exploring philosophical, political, or moral dimensions of the world\
+            or legitimacy theory.\
+          </p>\
+\
+          <div class="submission-card__label" style="margin-top:1.2rem;">Category 2 \'b7 Quantitative</div>\
+          <h3 class="submission-card__title">Quantitative Research</h3>\
+          <ul class="submission-card__list">\
+            <li>Replications of the General Will model.</li>\
+            <li>Statistical analyses, network models, or simulations of structured moral power indicators.</li>\
+          </ul>\
+\
+          <div class="submission-card__label" style="margin-top:1.2rem;">Category 3 \'b7 Critique</div>\
+          <h3 class="submission-card__title">Philosophical Critique</h3>\
+          <ul class="submission-card__list">\
+            <li>Daring interpretations that tie Nauthliberturacy to broader philosophical questions.</li>\
+            <li>Bold, imaginative critiques that still engage with facts and arguments.</li>\
+          </ul>\
+\
+          <div class="submission-actions">\
+            <button class="btn-dark">Submit now</button>\
+            <button class="btn-light">Download Sample Guide (PDF)</button>\
+          </div>\
+        </div>\
+\
+        <div class="submission-card">\
+          <h3 class="submission-card__title">Who should submit?</h3>\
+          <ul class="submission-card__list">\
+            <li>Students exploring legitimacy, radicalism, or moral power in their coursework.</li>\
+            <li>Independent researchers testing quantitative approaches to sovereignty.</li>\
+            <li>Practitioners with case studies of governance in fragile or emerging states.</li>\
+          </ul>\
+        </div>\
+      </div>\
+    </div>\
+  </section>\
+\
+  <!-- FOOTER / MAILING LIST -->\
+  <footer class="footer">\
+    <div class="footer__inner">\
+      <div>\
+        <h3 class="footer__title">Stay in touch & apply</h3>\
+        <p class="footer__text">\
+          We are aiming to run a small number of programmes to uphold and voice the aspirations of each individual.\
+          If you would like to hear when new seminars, fellowships or essay questions are announced, join our mailing list.\
+        </p>\
+      </div>\
+      <form class="footer-form">\
+        <div>\
+          <label for="email">Email address</label>\
+          <input id="email" class="footer-input" type="email" placeholder="you@example.com" />\
+        </div>\
+        <div>\
+          <label for="name">Name</label>\
+          <input id="name" class="footer-input" type="text" placeholder="Full name" />\
+        </div>\
+        <div>\
+          <label for="interest">I am interested in</label>\
+          <select id="interest" class="footer-select">\
+            <option selected>Seminars & schools</option>\
+            <option>Fellowships</option>\
+            <option>Essay prize</option>\
+            <option>Collaborative research</option>\
+          </select>\
+        </div>\
+        <button type="submit" class="btn-gold">Join Mailing List</button>\
+      </form>\
+    </div>\
+\
+    <div class="footer-bottom">\
+      <div>Nauthliberturacy Institute \'96 Institute for Moral Governance & Quantitative General Will. Ulaanbaatar.</div>\
+      <div class="footer-links">\
+        <a href="#about">About</a>\
+        <a href="#framework">Philosophy</a>\
+        <a href="#submission">Essay Prize</a>\
+      </div>\
+      <div>\'a9 2025 Nauthliberturacy Institute. All rights reserved.</div>\
+    </div>\
+  </footer>\
+\
+  <!-- Tiny JS for programme toggles + smooth scroll -->\
+  <script>\
+    document.addEventListener("DOMContentLoaded", function () \{\
+      const toggles = document.querySelectorAll(".programme-card__cta");\
+      toggles.forEach((btn) => \{\
+        btn.addEventListener("click", () => \{\
+          const targetId = btn.getAttribute("data-target");\
+          const details = document.getElementById(targetId);\
+          if (!details) return;\
+          details.classList.toggle("is-open");\
+        \});\
+      \});\
+    \});\
+  </script>\
+</body>\
+</html>\
+\
+}
